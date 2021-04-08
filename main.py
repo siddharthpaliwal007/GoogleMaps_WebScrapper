@@ -78,8 +78,6 @@ class WebDriver:
             for entry in zip(names, ratings, b_type, address, contact_no):
                 dic = dict(zip(keys, entry))
                 objects.append(dic)
-           # print(objects)
-
             #print(objects)
 
             agri = objects
@@ -119,7 +117,6 @@ class WebDriver:
         self.get_reviews_data()  # Getting all the reviews data.
         """
         self.driver.quit()  # Closing the driver instance.
-
 
 url = "location_url"
 x = WebDriver()
