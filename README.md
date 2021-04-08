@@ -11,4 +11,4 @@ To run the above main.py code . You would need:
 pip install flask
 pip install selenium
 
-3.) And location_url to the desired Google Map link.
+3.) And change 'location_url' to the desired Google Map link.
